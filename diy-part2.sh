@@ -45,5 +45,7 @@ git clone https://github.com/blacktitty-y/luci-app-dockerman.git
 #netdata
 git clone https://github.com/sirpdboy/luci-app-netdata package/luci-app-netdata
 
+#netspeedtest
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
 
 
