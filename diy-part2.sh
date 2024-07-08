@@ -12,6 +12,8 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.30.1/g' package/base-files/files/bin/config_generate
+# Set default password to empty
+sed -i 's/^root::/root::0:0:99999:7:::/g' package/base-files/files/etc/shadow
 
 rm -rf feeds/luci/themes/luci-theme-argon
 rm -rf feeds/luci/themes/luci-theme-design
