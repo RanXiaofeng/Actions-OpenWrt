@@ -41,5 +41,8 @@ git clone  https://github.com/gdy666/luci-app-lucky.git package/lucky
 #dockerman
 git clone https://github.com/blacktitty-y/luci-app-dockerman.git
 
+#netdata
+git clone https://github.com/muink/luci-app-netdata.git package/luci-app-netdata
+
 
 
