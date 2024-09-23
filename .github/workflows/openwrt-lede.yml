@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: X64软路由-UEFI
+name: X64软路由-LEDE-UEFI
 
 on:
   repository_dispatch:
