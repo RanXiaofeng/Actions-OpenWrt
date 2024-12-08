@@ -12,6 +12,7 @@
 
 # Modify default IP
 #sed -i 's/192.168.1.1/192.168.30.1/g' package/base-files/files/bin/config_generate
+sed -i 's/Copyright.*<\/a>/Copyright © 2024 YourCompanyName. All rights reserved.<\/a>/g' feeds/luci/modules/luci-base/root/usr/share/rpcd/ucode/luci
 # 切换内核版本到 5.10
 sed -i 's/KERNEL_PATCHVER:=.*/KERNEL_PATCHVER:=5.10/' ./target/linux/x86/Makefile
 
